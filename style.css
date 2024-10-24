@@ -20,13 +20,19 @@ div {
 button {
     font-size: 30px;
     width:25%;
+    background-color: indigo;
+    color: antiquewhite;
+}
+
+button:hover {
+    background-color: blueviolet;
 }
 
 #large-button {
     width: 50%;
 }
 
-#row1 {
+#display {
     display: flex; 
     justify-content: center; 
     align-items: center; 
