@@ -1,0 +1,36 @@
+div {
+  border: solid 2px black;  
+}
+
+#calculator {
+    height: 800px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+button {
+    font-size: 30px;
+    width:25%;
+}
+
+#large-button {
+    width: 50%;
+}
+
+#row1 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-grow: 1; 
+    font-size: 40px;
+    text-align: center;
+}
